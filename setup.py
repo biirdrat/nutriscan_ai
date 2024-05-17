@@ -8,6 +8,8 @@ def read_version():
             
 setup(
     name='ai_nutrition_analyzer',
+    author='Steven Tu',
+    author_email='22tsteven@gmail.com',
     version=read_version(),
     packages=find_packages(),
     install_requires=[

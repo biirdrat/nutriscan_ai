@@ -1,2 +1,6 @@
+# Python build files
 __pycache__
+*.egg-info
+
+# Virtual environment
 venv
