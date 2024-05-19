@@ -43,5 +43,5 @@ To run the application, execute the following commands:
 
 ```sh
 cd src
-python src/GUI/main.py
+python -m GUI.main
 ```
