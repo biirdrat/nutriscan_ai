@@ -16,4 +16,3 @@ setup(
     ],
 )
 
-"Something else"
