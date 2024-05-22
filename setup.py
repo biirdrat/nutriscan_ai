@@ -15,3 +15,5 @@ setup(
     install_requires=[
     ],
 )
+
+fw
