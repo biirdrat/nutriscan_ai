@@ -16,4 +16,4 @@ setup(
     ],
 )
 
-fw
+"Something else"
