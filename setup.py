@@ -37,7 +37,3 @@ setup(
     install_requires=[
     ],
 )
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
