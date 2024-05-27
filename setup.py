@@ -19,15 +19,13 @@ def read_version():
 
     Returns:
         str: The version number as a string.
-
-    Raises:
-        RuntimeError: If the __version__ string cannot be found.
     """
     with open("src/GUI/__init__.py", encoding='utf-8') as f:
         for line in f:
             if line.startswith('__version__'):
                 return line.strip().split('=')[1].strip().strip('"').strip("'")
     return ""
+
 setup(
     name='nutriscan_ai',
     author='Steven Tu',
