@@ -15,7 +15,7 @@ To set up and run this project, ensure you have the following installed:
 1. **Clone the Repository:**
 
     ```sh
-    git clone https://github.com/yourusername/nutriscan_ai.git
+    git clone https://github.com/biirdrat/nutriscan_ai.git
     cd nutriscan_ai
     ```
 
