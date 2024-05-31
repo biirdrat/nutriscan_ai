@@ -23,7 +23,7 @@ To set up and run this project, ensure you have the following installed:
 
     ```sh
     python -m venv venv
-    venv\Scripts\activate
+    source venv/Scripts/activate
     ```
 
 3. **Install Dependencies:**
@@ -43,5 +43,5 @@ To run the application, execute the following commands:
 
 ```sh
 cd src
-python -m GUI.main
+python -m gui.main
 ```

@@ -6,13 +6,13 @@ Imports:
     and to functions that interact with the interpreter.
     os: Provides a way of using operating system-dependent functionality.
     PyQt5.QtWidgets.QApplication: Manages the GUI application's control flow and main settings.
-    GUI.ui.MainWindow: The main window class of the application, defined in the 'GUI.ui' module.
+    gui.ui.MainWindow: The main window class of the application, defined in the 'gui.ui' module.
 """
 #Currently raising an issue, "Unable to import PyQt5.QtWidgets"
 import sys
 import os
 from PyQt5.QtWidgets import QApplication
-from GUI.ui import MainWindow
+from gui.ui import MainWindow
 
 def main():
     """
